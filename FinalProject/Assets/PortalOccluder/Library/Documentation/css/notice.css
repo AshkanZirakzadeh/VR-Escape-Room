@@ -1,0 +1,29 @@
+.notice-popup,
+.notice {
+  margin: 8px 0;
+  border: none;
+  padding: 16px;
+  font-size: large;
+  text-shadow: 1px 1px #000;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5); }
+
+.notice-popup {
+  opacity: 0; }
+
+.notice-error {
+  background: #a32a15;
+  color: white; }
+
+.notice-success {
+  background: #4d962b;
+  color: white; }
+
+.notice-warning {
+  background: #a8941f;
+  color: white; }
+
+.notice-info {
+  background: #1fa893;
+  color: white; }
+
+/*# sourceMappingURL=notice.css.map */

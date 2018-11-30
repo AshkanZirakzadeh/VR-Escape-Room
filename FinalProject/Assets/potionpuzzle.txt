@@ -1,0 +1,40 @@
+A = Red
+B = Blue
+C = Green
+D = Purple
+E = Black
+F = Turqouise
+
+1
+2
+4
+5
+
+
+
+A + X = C
+
+A + Y = C
+
+A + B = C
+
+B + X = D
+
+B + D = C
+
+C + Z = A
+
+C + Y = B
+
+D + Z = A
+
+D + Y = A
+
+X + Y = E
+
+X + Z = E
+
+Y + Z = F
+
+
+

@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html data-wyvern="parallax:init(0.1)">
+    <head>
+        <title>Portal Occluder Library</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <!-- Style Sheets -->
+        <link href="css/app.css" rel="stylesheet" />
+        <link href="css/notice.css" rel="stylesheet" />
+        <link href="favicon.ico" rel="shortcut icon" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+        
+        <!-- Scripts -->
+        <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+
+    </head>
+    <body class="body" data-wyvern="gradient:linearFadeIn(1, null)">
+        <div class="cirrus-container" data-wyvern="nav:route('unity/portal-occlusion')">
+            <div class="cirrus-doc-align">
+                <h1 style="text-align:center; color:black">Stay up to date at <a href="http://cirrusplay.com">cirrusplay.com</a></h1>
+                <div class="cirrus-column-50">
+                    <h1>Portal occlusion Library</h1>
+
+                    <p>
+                        After weeks or even months of tireless effort, you have created an environment
+                        in Unity that is perfectly detailed and completely immersive.  There is just
+                        one problem - it runs at 12 frames per-second.  You know what is wrong: Unity
+                        is rendering ever single room in your environment even if it can't be seen by
+                        the player.  How can you fix it?  How can you tell Unity to only render what
+                        can be seen?
+                    </p>
+                    <p>
+                        <strong>The Portal Occlusion Library is designed for your interior levels!</strong>  You can
+                        even begin adding portals and rooms to your environment after you've completed
+                        your scene.  Simply place your rooms, connect them logically with portals (preferably where
+                        your doorways and windows connect) and run your scene.  The Portal Occlusion Library will
+                        automatically determine your scene setup.
+                    </p>
+                </div>
+                <div class="cirrus-column-50 cirrus-column-left-padded">
+                    <a href="https://www.assetstore.unity3d.com/#!/content/86120" class="cirrus-massive-button" style="margin-top: 32px;" data-wyvern="target:newWindow">Get It Now!</a>
+                    <iframe width="420px" height="315" style="width:100%;" src="https://www.youtube.com/embed/q8RHNUFSTT8?rel=0" frameborder="0" allowfullscreen class="cirrus-video-box-right cirrus-persp-right"></iframe>
+                </div>
+                <div style="clear:both; overflow:hidden">
+                    <hr style="clear:both" />
+                </div>
+                <div style="clear:both; text-align:center; margin-top: 32px;">
+                    <a data-fancybox="gallery" href="http://cirrusplay.com/img/unity/portal-occluder/1.jpg"><img src="http://cirrusplay.com/img/unity/portal-occluder/thumb/1.jpg"></a>
+                    <a data-fancybox="gallery" href="http://cirrusplay.com/img/unity/portal-occluder/2.png"><img src="http://cirrusplay.com/img/unity/portal-occluder/thumb/2.jpg"></a>
+                    <a data-fancybox="gallery" href="http://cirrusplay.com/img/unity/portal-occluder/3.png"><img src="http://cirrusplay.com/img/unity/portal-occluder/thumb/3.jpg"></a>
+                    <a data-fancybox="gallery" href="http://cirrusplay.com/img/unity/portal-occluder/4.png"><img src="http://cirrusplay.com/img/unity/portal-occluder/thumb/4.jpg"></a>
+                    <a data-fancybox="gallery" href="http://cirrusplay.com/img/unity/portal-occluder/5.png"><img src="http://cirrusplay.com/img/unity/portal-occluder/thumb/5.jpg"></a>
+                    <a data-fancybox="gallery" href="http://cirrusplay.com/img/unity/portal-occluder/6.png"><img src="http://cirrusplay.com/img/unity/portal-occluder/thumb/6.jpg"></a>
+                    <a data-fancybox="gallery" href="http://cirrusplay.com/img/unity/portal-occluder/7.png"><img src="http://cirrusplay.com/img/unity/portal-occluder/thumb/7.jpg"></a>
+                    <a data-fancybox="gallery" href="http://cirrusplay.com/img/unity/portal-occluder/8.png"><img src="http://cirrusplay.com/img/unity/portal-occluder/thumb/8.jpg"></a>
+                    <a data-fancybox="gallery" href="http://cirrusplay.com/img/unity/portal-occluder/9.png"><img src="http://cirrusplay.com/img/unity/portal-occluder/thumb/9.jpg"></a>
+                    <a data-fancybox="gallery" href="http://cirrusplay.com/img/unity/portal-occluder/10.png"><img src="http://cirrusplay.com/img/unity/portal-occluder/thumb/10.jpg"></a>
+                    <a data-fancybox="gallery" href="http://cirrusplay.com/img/unity/portal-occluder/11.png"><img src="http://cirrusplay.com/img/unity/portal-occluder/thumb/11.jpg"></a>
+                    <a data-fancybox="gallery" href="http://cirrusplay.com/img/unity/portal-occluder/12.png"><img src="http://cirrusplay.com/img/unity/portal-occluder/thumb/12.jpg"></a>
+                    <a data-fancybox="gallery" href="http://cirrusplay.com/img/unity/portal-occluder/13.png"><img src="http://cirrusplay.com/img/unity/portal-occluder/thumb/13.jpg"></a>
+                </div>
+                <h1 style="clear:both">Features</h1>
+                <p style="overflow:hidden">
+                    <strong>Easy and fast to get started</strong>, the Portal Occlusion Library makes optimizing
+                    your levels a breeze.
+                </p>
+                <ul>
+                    <li>Easy to use. Simply drag-and-drop prefab rooms and portals into your scene.</li>
+                    <li>No Baking! Once your portals are in place, you never have to bake scene occlusion.</li>
+                    <li>No scripting required!  The system runs when your game starts and figures your scene occlusion out for you.</li>
+                    <li>Configurable.  Rooms and Portals can be configured to suite your scene more precisely.</li>
+                    <li>API for Advanced Users.  Tie into special events to control your environment more closely.</li>
+                    <li>Dynamic Positioning.  Great for levels where your rooms move, such as on a boat or in a star ship.</li>
+                    <li>Dynamic Occlusion.  The scene will notice when objects leave or entire rooms and act accordingly.</li>
+                    <li>Works in VR!</li>
+                </ul>
+                <h1>Usage</h1>
+                <p>
+                    Quickly make your first scene with portals or load one of the two demo scenes to see how things
+                    interact.  After you have a scene ready for occlusion (or even a couple of small rooms witha doorway), follow the steps below to begin using
+                    portals.
+                </p>
+                <p>
+                    <strong>STEP 1.</strong>  Navigate to the Library/Prefabs folder and drag a Room into your scene.  You
+                    should notice a cyan-colored bounding box where the room is.  Move and scale the bounding box to encompass
+                    the entire contents of one of your rooms (doors and all).
+                </p>
+                <p>
+                    <strong>Step 2.</strong>  Now repeat step one for a connecting room - dragging and dropping a Room prefab
+                    then rescaling the room to fit your second room.
+                </p>
+                <p>
+                    <strong>Step 3.</strong>  Drag a Portal prefab into your scene.  Position, rotate and scale the doorway to
+                    connect the two rooms you just created where the doorway would be.  <strong>Make sure the portal intersects
+                    both rooms and that the orange squares mark the entry and exit points of your doorway!</strong>
+                </p>
+                <p>
+                    <strong>Step 4.</strong> Repeat steps one through three for each room, doorway and window that connects a room.
+                </p>
+                <p>
+                    <strong>Step 5.</strong> Place a player controller and main camera in your scene.  Press play and start walking around from
+                    room to room to explore and enjoy your newly optmimized world!
+                </p>
+                <h1>Limitations</h1>
+                <p>
+                    The portal occlusion library only functions if the main camera is in a room.  If the camera steps outside of a room, then the
+                    system will freeze its current state and fail to process.  For this reason, it is best to use the portal occlusion library for
+                    in-door "Doom-like" scenes.  Additionally, the system requires that your rooms be connected by portals in a meaningful way in
+                    order to best optimize results.  We recommend watching <a href="https://www.youtube.com/watch?v=q8RHNUFSTT8">this video</a> to
+                    better understand how to setup the portal system.
+                </p>
+                <h1>Fully Enclosed Objects</h1>
+                <p>
+                    In order to make your worlds as optimized as possible, the portal library prefers that rooms completely contain their objects.
+                    With "Only Fully Enclosed Objects" ticked, rooms and portals will only manage objects (Renderers and lights) completely contained within
+                    them.  With it unticked, they will also manage anything that intersects them.  Note that if a rigid body intersects a portal or
+                    room that they are automatically managed regardless of this setting.  By default, "Only Fully Enclosed Objects" is checked for rooms
+                    but not for portals.
+                </p>
+
+                <h1>Exterior Portals</h1>
+                <p>
+                    Any portal which has exactly one connection is considered an exterior portal.  This means you can have a group of objects
+                    act as an outside world - potentially an outside playable area - while still hiding this scene when deep within your structure's
+                    hallways.  This can make your world seems a lot bigger than it really is while still optimizing framerate, or, with some careful 
+                    planning, allow your player the ability to transition from an outside to an inside environment and back.
+                </p>
+
+                <h1>Portal: Additional Objects</h1>
+                <p>
+                    This is a simple array which you can add additional geometry to which may not be connected to a room or portal.  To add
+                    additional objects, set the array size to 1 or more and drag objects into the array that you want their visibility governed
+                    by the portal.  Once the portal is visible, the object will also become visible.  Once the portal is invisible, the object
+                    will also become invisible.  This only affects objects with a <i>Renderer</i> component.
+                </p>
+
+                <p>
+                    To setup exterior views, first make sure that your exterior portals have exactly one room connection.  Then create one or more
+                    game objects which will hold your exterior geometry and populate them with models, lights or terrains.  Add a <i>Portal Object 
+                    Configuration</i> component to the new game object (just the top-level one) and tick the "Is Exterior Object".
+                </p>
+
+                <h1>Tips and Troubleshooting Occlusion</h1>
+                <p>
+                    <strong>Occlusion Failures.</strong> Most of the time, occlusion should just work if you setup your scene correctly.  Common issues that occur typically
+                    arise from a room not completely encompassing all of its parts or a portal not quite intersecting a room.  Be sure
+                    to mess around with the size and positions of room and portal prefabs and eventually they should start working the
+                    way you would like.
+                </p>
+                <p>
+                    If all else fails, portals and rooms can have their <i>Only Fully Enclosed Objects</i> unchecked which will cause any
+                    object intersecting to become a part of that prefab.  By default, Portals have this set to false, but be careful for
+                    setting this for rooms.  It can cause more geometry to be rendered in your scene than is required, causing performance
+                    issues.  Consider it a last resort.
+                </p>
+                <p>
+                    <strong>Opening/Closing Portals.</strong> A very common optimization is to close a portal when it is obstructed.  The
+                    most obvious case for this is a closed door.  You can create a script which takes a portal component and dynamically
+                    sets the <i>Open</i> attribute to <i>true/false</i> depending on the state of the door.  For an example of how to
+                    do that, check out the "demo" scene under examples.  The Door.cs script uses animation states to determine when a door's portal
+                    is open or closed.  This allows the Portal Occlusion Library to finish early processing when a player is in a room with a shut door -
+                    a potentially massive performance savings!
+                </p>
+                <p>
+                    <strong>Overlapping Rooms.</strong>  Generally it is best to keep rooms seperated as much as possible.  However, a little overlap
+                    is generally fine and sometimes necessary.  This can occur if your rooms share geometry with another room or you are creating occlusion
+                    portals to break up long hallways.  Whenever possible, try to split geometry where rooms connect.  If you can't - don't worry.  The portal arrangement
+                    can usually be modified to figure it out.
+                </p>
+                <p>
+                    <strong>Rooms/Portals Become Walls.</strong>  If you find yourself unable to walk through a portal or room, you might have
+                    added the room or portal to a game object as a component rather than using the prefab.  That's okay, it just means the
+                    collider attached to the room or portal is not set as a trigger.  Simply check the <i>Is Trigger</i> box on the Box Collider
+                    and the problem should go away.  You might also want to go through the Room/Portal's components to be sure it's set up the
+                    way you want, as well.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
